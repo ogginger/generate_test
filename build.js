@@ -6,9 +6,10 @@
 	"log": "lib/log.min",
 	"Test": "lib/test.min",
 	"validate": "lib/validate.min",
-	"underscore": "lib/underscore.min"
+	"underscore": "lib/underscore.min",
+	"bIsObjectEqual": "lib/is_object_equal.min"
     },
-    exclude: [ "log", "underscore" ],
+    exclude: [ "log", "underscore", "validate", "bIsObjectEqual" ],
     name: "xGenerateTest",
     out: "generate_test.min.js"
 })
